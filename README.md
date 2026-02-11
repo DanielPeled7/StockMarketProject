@@ -19,4 +19,4 @@ To run the project locally, use the following command:
 `streamlit run main.py`
 
 ## Links
-- **Streamlit App:** [כאן תדביק את הלינק שתקבל מ-Streamlit Cloud]
+- **Streamlit App:** https://stockmarketproject-27w56b49rkpayrtibsdsvk.streamlit.app/
