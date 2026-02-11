@@ -1,7 +1,7 @@
 # 📈 Ultimate Stock Market Intelligence Dashboard
 
 ## Description
-A professional stock analysis tool built with Python and Streamlit. The dashboard fetches real-time market data via Polygon.io API, visualizes price action with interactive candlestick charts, and compares stock performance against major market benchmarks (S&P 500, Nasdaq, Dow Jones) using normalized growth analysis.
+A stock analysis tool. The dashboard fetches real-time market data via Polygon.io API, visualizes price action with interactive candlestick charts, and compares stock performance against major market benchmarks (S&P 500, Nasdaq, Dow Jones) using normalized growth analysis.
 
 ## Key Features
 - **Real-time Data:** Live integration with Polygon.io.
