@@ -133,7 +133,7 @@ if stock_raw_data and 'results' in stock_raw_data:
         )])
         fig_candle.update_layout(
             template="plotly_dark", xaxis_rangeslider_visible=False, height=450,
-            xaxis=dict(fixedrange=True), yaxis=dict(fixedrange=True)
+            xaxis=dict(fixedrange=False), yaxis=dict(fixedrange=False)
         )
         st.plotly_chart(fig_candle, use_container_width=True, config={'displayModeBar': False})
 
@@ -147,7 +147,7 @@ if stock_raw_data and 'results' in stock_raw_data:
             fig_comp.update_layout(
                 template="plotly_dark", height=450,
                 title=f"Growth of $100 since {START_DATE}",
-                xaxis=dict(fixedrange=True), yaxis=dict(fixedrange=True)
+                xaxis=dict(fixedrange=False), yaxis=dict(fixedrange=False)
             )
             st.plotly_chart(fig_comp, use_container_width=True, config={'displayModeBar': False})
             st.info(
