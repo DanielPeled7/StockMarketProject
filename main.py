@@ -132,6 +132,13 @@ if stock_raw_data and 'results' in stock_raw_data:
             low=main_df['Low'], close=main_df['Close'], name="Price"
         )])
         fig_candle.update_layout(
+            title={
+                'text': f"{symbol} Price Action ({START_DATE} to {END_DATE})",
+                'y': 0.95,
+                'x': 0.5,
+                'xanchor': 'center',
+                'yanchor': 'top'
+            },
             template="plotly_dark", xaxis_rangeslider_visible=False, height=450,
             xaxis=dict(fixedrange=False), yaxis=dict(fixedrange=False)
         )
