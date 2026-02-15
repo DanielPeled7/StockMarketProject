@@ -153,7 +153,7 @@ if stock_raw_data and 'results' in stock_raw_data:
                                           line=dict(color='red', width=2)))
             fig_comp.update_layout(
                 template="plotly_dark", height=450,
-                title=f"Growth of $100 since {START_DATE}",
+                title=f"Relative Growth: {symbol} vs {benchmark_label} ({START_DATE} to {END_DATE})",
                 xaxis=dict(fixedrange=False), yaxis=dict(fixedrange=False)
             )
             st.plotly_chart(fig_comp, use_container_width=True, config={'displayModeBar': False})
