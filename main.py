@@ -52,7 +52,7 @@ main_df = pd.DataFrame()
 bench_df = pd.DataFrame()
 
 if not symbol:
-    st.title("📈 Stock Market Intelligence Dashboard")
+    st.title("📈 Stock Market Dashboard")
     st.warning("Please select or enter a ticker symbol to begin.")
     st.stop()
 
@@ -164,7 +164,7 @@ if stock_raw_data and 'results' in stock_raw_data:
     n3.link_button("Google News", f"https://www.google.com/search?q={symbol}+stock+news&tbm=nws",
                    use_container_width=True)
 
-    with st.expander("View Raw Data Table"):
-        st.dataframe(main_df)
+    #with st.expander("View Raw Data Table"):
+        #st.dataframe(main_df)
 else:
     st.error("⚠️ Error: Data fetch failed. Check your connection, ticker, or API limit.")
