@@ -72,7 +72,7 @@ with st.spinner('Fetching data from Wall Street...'):  # type: ignore
 
 # --- 6. DATA PROCESSING & UI ---
 if stock_raw_data and 'results' in stock_raw_data:
-    st.title("📈 Stock Market Intelligence Dashboard")
+    st.title("📈 Stock Market Dashboard")
 
     # Header Logic
     company_name = details_raw_data.get('results', {}).get('name', symbol) if details_raw_data else symbol
