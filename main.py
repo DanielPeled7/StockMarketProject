@@ -7,7 +7,7 @@ import plotly.graph_objects as go
 # noinspection SpellCheckingInspection
 MY_API_KEY = st.secrets["POLYGON_API_KEY"]
 START_DATE = "2024-04-01"
-END_DATE = "2026-02-05"
+END_DATE = "2026-02-15"
 POPULAR_STOCKS = ["AAPL", "MSFT", "TSLA", "AMZN", "GOOGL", "NVDA", "META"]
 BENCHMARK_MAP = {
     "S&P 500 (SPY)": "SPY",
